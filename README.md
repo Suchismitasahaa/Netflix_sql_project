@@ -7,7 +7,7 @@
 This project analyzes Netflix's movies and TV shows using SQL to uncover trends in content type, genre distribution, release patterns, and more. The goal is to practice real-world SQL querying — filtering, aggregation, grouping and string/date parsing — on a realistic, messy dataset.
 
 ## Objectives
-  1. Understand the overall composition of Netflix's catalog (Movies vs TV Shows).
+ 1. Understand the overall composition of Netflix's catalog (Movies vs TV Shows).
 
    2.Identify which countries produce the most content on Netflix.
   
@@ -23,3 +23,8 @@ Source: Netflix Movies and TV Shows dataset on Kaggle
 File:( https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 Columns: show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description 
+
+##Tools Used
+
+Database: PostgreSQL
+
