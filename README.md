@@ -24,7 +24,7 @@ File:( https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 Columns: show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description 
 
-##Tools Used
+## Tools Used
 
 Database: PostgreSQL
 
