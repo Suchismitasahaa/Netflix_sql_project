@@ -1,3 +1,3 @@
 # Netflix Movies and TV shows data analysis using SQL
 
-[]()
+[](netflix logo.jpg)
