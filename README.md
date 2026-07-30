@@ -235,5 +235,9 @@ WHERE release_year >EXTRACT(YEAR FROM CURRENT_DATE) - 10;
 ```
 
 ## Findings
-###Content Distribution: 
-The dataset contains a diverse range of movies and TV shows with varying ratings and genres
+### Content Distribution: 
+The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
+### Geographical Insights:
+The top countries and the average content releases by India highlight regional content distribution.
+### Common genre:
+Dramas and International Movies are the most common genres.
