@@ -20,7 +20,7 @@ This project analyzes Netflix's movies and TV shows using SQL to uncover trends 
 ## Dataset
 Source: Netflix Movies and TV Shows dataset on Kaggle
 
-File:( https://www.kaggle.com/datasets/shivamb/netflix-shows)
+File:[Dataset link]( https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 Columns: show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description 
 
@@ -29,6 +29,8 @@ Columns: show_id, type, title, director, cast, country, date_added, release_year
 Database: PostgreSQL
 
 ## Schema
+
+```sql
 
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix 
