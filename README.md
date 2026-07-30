@@ -49,3 +49,31 @@ CREATE TABLE netflix
   description  VARCHAR(250)
 );
 
+```
+## Business Problems and Solutions
+
+1. Count the number of Movies and TV shows
+```sql
+
+SELECT type, COUNT(*) AS total
+FROM netflix
+GROUP BY type;
+```
+
+2.Find the most common rating for movies and TV shows
+
+```sql
+SELECT 
+  type,
+  rating
+FROM (
+SELECT type, rating ,COUNT(*),
+RANK() OVER (PARTITION BY type ORDER BY COUNT(*)DESC) as ranking
+FROM
+netflix
+GROUP BY 1,2
+) as t1
+WHERE 
+ranking=1
+```
+
