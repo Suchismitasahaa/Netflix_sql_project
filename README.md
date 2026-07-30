@@ -234,3 +234,6 @@ FROM netflix
 WHERE release_year >EXTRACT(YEAR FROM CURRENT_DATE) - 10;
 ```
 
+## Findings
+###Content Distribution: 
+The dataset contains a diverse range of movies and TV shows with varying ratings and genres
