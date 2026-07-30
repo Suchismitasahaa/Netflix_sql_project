@@ -9,10 +9,15 @@ This project analyzes Netflix's movies and TV shows using SQL to uncover trends 
 ## Objectives
   1. Understand the overall composition of Netflix's catalog (Movies vs TV Shows).
 
-  2.Identify which countries produce the most content on Netflix.
+   2.Identify which countries produce the most content on Netflix.
   
-  3.Analyze how the volume of content added has changed over time (year-over-year trend).
+   3.Analyze how the volume of content added has changed over time (year-over-year trend).
   
-  4.Determine the most common genres and how they differ across content types.
+   4.Determine the most common genres and how they differ across content types.
   
-  5.Identify the directors and cast members with the most titles on the platform.
+   5.Identify the directors and cast members with the most titles on the platform.
+
+## Dataset
+Source: Netflix Movies and TV Shows dataset on Kaggle
+File: netflix_titles.csv
+Columns: show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description 
